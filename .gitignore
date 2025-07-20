@@ -1,3 +1,29 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+
 # Logs
 logs
 *.log
@@ -48,3 +74,6 @@ certs/localhost-key.pem
 certs/localhost.pem
 
 pnpm-lock.yaml
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
